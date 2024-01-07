@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/output.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style-contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="bg-gray-200">
+    <header class="fixed inset-x-0 top-0 w-full z-50 bg-gradient-to-l from-purple-200 to-gray-500 bg-opacity-25">
+        <div class="container mx-auto p-4 flex justify-between items-center top-7">
+            <div class="flex items-center justify-between space-x-4 w-full mx-auto">
+                <!-- Nama di sebelah kiri -->
+                <div id="nama" class="flex items-center space-x-2">
+                    <div class="w-4 h-4 bg-purple-800 rounded-full"></div>
+                    <div class="text-3xl font-bold text-white">Moh. Abdan Syakura Putra</div>
+                </div>
+                
+                <!-- Menu di sebelah kanan -->
+                <div id="nav" class="flex items-center space-x-4 text-2xl font-bold text-white">
+                    <a href="#about" class="nav-link">Beranda</a>
+                    <a href="about.html" class="nav-link">Tentang</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+
+    <main id="content" class="mt-10">
+        <div class="flex flex-col items-center mt-20 gap-48">
+            <section id="about" class="flex flex-wrap justify-center items-center p-12 relative space-x-8">
+                <div class="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]"></div>
+                <div class="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] "></div>
+                <div id="contain1" class="flex flex-col justify-center items-center">
+                    <div class="flex flex-wrap items-center pt-24 pb-10 px-36 w-[40rem]">
+                        <img src="public/foto.png" alt="" class="rounded-full">
+                    </div>
+                    <div class="font-medium text-lg text-black">
+                        <h1>Abdan Kribo</h1>
+                        <hr class="my-4 border-t-2 border-gray-950">
+                    </div>
+                    <div class="font-medium text-lg text-black">
+                        <h1>Web Development</h1>
+                    </div>
+                    <div class="flex justify-center gap-4 mt-6">
+                        <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm">
+                           <a href="https://www.linkedin.com/in/abdankribo" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        </div>
+                        <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm">
+                           <a href="https://www.instagram.com/abdankribo_/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </div>
+                        <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm">
+                           <a href="mailto:abdankribo@gmail.com"><ion-icon name="mail"></ion-icon></a>
+                        </div>
+                        <div class="flex justify-center items-center w-14 h-14 rounded-full bg-white bg-opacity-80 backdrop-blur-sm">
+                           <a href="https://github.com/abdankribo" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                        </div>
+                     </div>
+                </div>
+                <div id="contain2">
+                    <div class="justify-center items-center space-y-4 text-7xl text-black font-bold mb-8">
+                        <h1>Hello World</h1>
+                    </div>
+                    <div class="justify-center items-center space-y-4 text-xl text-black font-medium mb-8">
+                        <h2>Here's who I am & what I do</h2>
+                    </div>
+                    <div class="flex justify-center items-center gap-9 text-lg text-white font-medium mb-8">
+                        <a href="" class="px-7 py-3 bg-gray-900 rounded-full outline-0">Contact me here 👉</a>
+                        <a href="" class="px-7 py-3 bg-gray-900 rounded-full outline-0">Download CV 🙇</a>
+                    </div>
+                    <div class="flex flex-col justify-center items-center text-base text-black font-medium max-w-[30rem]">
+                        <p>I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click “Edit Text” or double click me to add your own content and make changes to the font.</p>
+                    </div>                    
+                </div>
+            </section>
+            <section id="skills" class="flex flex-col justify-center items-center p-12 relative space-x-8 mt-40">
+                <!-- <div class="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]"></div>
+                <div class="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] "></div> -->
+                <h1 class="font-medium text-3xl mb-8">My Skills</h1>
+                <div class="flex flex-wrap justify-center items-center gap-6">
+                    <img src="public/laravel.png" alt="" class="w-[10rem]">
+                    <img src="public/bootstrap.png" alt="" class="w-[10rem]">
+                    <img src="public/python.png" alt="" class="w-[8rem]">
+                    <img src="public/codeigniter.png" alt="" class="w-[8rem]">
+                    <img src="public/tailwind.png" alt="" class="w-[10rem]">
+                    <img src="public/react.png" alt="" class="w-[10rem]">
+                </div>
+             </section>
+            <section id="contact" class="max-w-[50rem] ">
+                <div class="container">
+                    <h1 class="font-medium text-3xl text-center mb-8">Contact</h1>
+                    <div class="container-layout">
+                        <div class="contact-biodata">
+                            <section class="title">
+                                <h1>Kontak Saya</h1>
+                                <p>Kalian dapat menghubungi kontak saya, untuk berdiskusi bersama!</p>
+                            </section>
+                            <section class="biodata">
+                                <h2>Lokasi</h2>
+                                <img src="public/logo.png" alt="flag-ind">
+                                <medium>Bangkalan, Indonesia</medium>
+                            </section>
+                            <section class="biodata">
+                                <h2>Email</h2>
+                                <medium>abdankribo@gmail.com</medium>
+                            </section>
+                            <section class="biodata">
+                                <h2>Instagram</h2>
+                                <medium>@abdankribo_ <a href="https://www.instagram.com/abdankribo_/">↗</a></medium>
+                            </section>
+                            <section class="biodata">
+                                <h2>GitHub</h2>
+                                <medium>abdankribo <a href="https://github.com/abdankribo">↗</a></medium>
+                            </section>
+                        </div>
+                        <div class="contact-form">
+                            <section class="form-title">
+                                <h1>Tanyakan Sesuatu</h1>
+                                <p>Hi! Tanyakan sesuatu kepada saya melalui form ini</p>
+                            </section>
+                            <section class="form-input">
+                                <form action="#">
+                                    <label for="name">Nama</label>
+                                    <input id="name" type="text" placeholder="Masukkan nama anda" required>
+                                    <label for="email">Email</label>
+                                    <input id="email" type="email" placeholder="Masukkan email anda" required>
+                                    <label for="subject">Subject</label>
+                                    <input id="subject" type="text" placeholder="Masukkan subject pesan" required>
+                                    <label for="message">Pesan</label>
+                                    <textarea  id="message" required></textarea>
+                                    <button type="submit" onclick="sendemail()">Kirim Pesan</button>
+                                </form>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer class="text-center text-xl my-20 font-medium text-black flex flex-col items-center">
+        <img src="public/sun go kong (1).jpg" alt="" class="w-[20rem] mb-2 rounded-lg">
+        <p>Jika ada orang tiba-tiba baik kepadamu, ingat kata Sun Go Kong</p>
+        <h1>"Guru, Dia itu Siluman"</h1>
+        <br>
+        <p class="text-xs text-gray-500">©2023. Moh. Abdan Syakura Putra. All Right Reserved</p>
+    </footer>
+    
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+    
+                if (targetElement) {
+                    const offset = document.querySelector('header').offsetHeight;
+                    const targetOffset = targetElement.offsetTop - offset;
+    
+                    window.scrollTo({
+                        top: targetOffset,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+    <!-- Tambahkan script untuk menangani klik -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var navLinks = document.querySelectorAll('.nav-link');
+
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    // Tambahkan logika atau perubahan lain sesuai kebutuhan Anda
+                    console.log('Link clicked:', link.innerText);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

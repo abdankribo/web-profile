@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+
+/* div {
+    border: 1px solid black;
+} */
+
+:root{
+    --yellow: #FFC90A;
+    --dark: #002454;
+    --grey: #75728a;
+    --white: #fafafa;
+    --blue : #1D9BF0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: var(--white);
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+/* nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--dark);
+    margin: 0 20px;
+    transition: all .4s;
+} */
+
+/* nav li a:hover{
+    color: var(--white);
+    background-color: var(--blue);
+    border-radius: 30px;
+    padding: 5px 15px;
+} */
+
+/* Tambahkan animasi ke link navigasi */
+.nav-link {
+    transition: margin 0.3s ease-in-out; /* Atur durasi, timing function, dan properti yang diubah */
+}
+
+/* Tambahkan style untuk navigasi */
+.nav-link:hover {
+    margin-bottom: 4px; /* Ubah margin sesuai kebutuhan */
+}
+
+.logo img {
+    width: 70px;
+    padding: 6px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 100px;
+    padding: 10px;
+    width: 60vw;
+}
+
+.about-name {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--grey);
+}
+
+.about-name h1 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.about-name p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.about-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--grey);
+}
+
+.card-title p, .item-title p{
+    font-weight: 500;
+}
+
+.card-item {
+    padding: 20px 30px;
+    margin-bottom: 10px;
+    border: 2px solid var(--grey);
+    border-radius: 10px;
+    min-width: 28vw;
+    max-width: 28vw;
+}
+
+.item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.item-title small {
+    padding: 3px 6px;
+    background-color: #dad7d7;
+    border-radius: 20px;
+}
+
+.item-title medium {
+    margin-right: 10px;
+}
+
+.item-desk{
+    margin-top: 10px;
+}
+
+.item-desk small a{
+    display: block;
+}
+
+
+

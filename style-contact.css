@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --yellow: #FFC90A;
+    --dark: #002454;
+    --grey: #75728a;
+    --white: #fafafa;
+    --blue : #1D9BF0;
+}
+/* Tambahkan gaya untuk animasi */
+.nav-link {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Tambahkan style ketika tombol dihover */
+.nav-link:hover {
+    transform: scale(1.1); /* Membesarkan elemen */
+    color: #000000; /* Ganti warna sesuai keinginan Anda */
+}
+
+.container {
+    /* margin-top: 100px; */
+    padding: 10px;
+    width: 60vw;
+}
+
+.container-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-biodata {
+    padding: 3rem 0;
+    margin: 0 5rem 4rem 0;
+}
+
+.contact-biodata .title h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact-biodata .title p {
+    font-size: 0.8rem;
+}
+
+.biodata {
+    margin: 20px 0;
+}
+
+.biodata h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.biodata medium {
+    font-size: 0.8rem;
+}
+
+.biodata medium a {
+    text-decoration: none;
+}
+
+.biodata img {
+    width: 1rem;
+    margin-right: 5px;
+}
+
+.contact-form {
+    padding: 3rem 0;
+}
+
+.contact-form .form-title h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact-form .form-title p {
+    font-size: 0.8rem;
+}
+
+.form-input label{
+    display: block;
+    margin: 10px 0;
+}
+
+.form-input textarea {
+    font-family: 'Poppins';
+}
+
+.form-input input, .form-input textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+}
+
+.form-input input:focus, .form-input textarea:focus {
+    border: none;
+    outline: 3px solid var(--blue);
+}
+
+.form-input button  {
+    display: block;
+    padding: 12px;
+    margin: 20px 0;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--blue);
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.form-input button:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid var(--blue);
+}
+
+
+
+/* div {
+    border: 1px solid black;
+} */
